@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jax-playground"
+version = "0.1.0"
+description = "Any jax-based code for practice can be organized in this project"
+authors = ["Taeho Lee"]
+readme = "README.md"
+packages = [{include = "jax_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^1.13.1"
+numpy = "^1.24.1"
+jax = "^0.4.2"
+jaxlib = "^0.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
